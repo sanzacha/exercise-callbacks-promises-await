@@ -1,0 +1,40 @@
+
+.container {
+    position: relative;
+    margin-top: 50px;
+}
+
+.btn-continer {
+    text-align: center;
+}
+
+.callback-js-continer {
+    margin: 20px 0 20px 10px;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: none;
+    position: relative;
+}
+
+.circle label {
+    position: absolute;
+    top: 43%;
+    left: 26%;
+}
+
+.addTextElement {
+    display: none;
+}
+
+.container-circle-promises {
+    background-color: #ee9999;
+}
+
+.container-circle-await {
+    background-color: #f7d391;
+}

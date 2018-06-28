@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-ember-extension="1">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Signin Template for Bootstrap</title>
+        <link href="./assets/bootstrap.min.css" rel="stylesheet" />
+        <link href="./assets/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 btn-continer">
+                    <div class="callback-js-continer">
+                        <button id="callCallBack" href="#" class="btn btn-success callback-js">Click me for callBacks</button>
+                    </div>
+                    <div class="callback-js-continer promiseBtnCls">
+                            <button id="promiseBtn" href="#" class="btn btn-success callback-js">Click me for Promises</button>
+                    </div>
+                    <div class="callback-js-continer promiseBtnCls">
+                            <button id="awaitBtn" href="#" class="btn btn-success callback-js">Click me for async / await</button>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="circle container-circle-callback">
+                        <label id="addTextElementCallback" class="common-label-cls"></label>
+                    </div>
+                    <div class="circle container-circle-promises">
+                        <label id="addTextElementPromises" class="common-label-cls"></label>
+                    </div>
+                    <div class="circle container-circle-await">
+                        <label id="addTextElementAwait" class="common-label-cls"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/jquery-3.3.1.min.js"></script>
+        <script src="./assets/main.js"></script>
+    </body>
+</html>
